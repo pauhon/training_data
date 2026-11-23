@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">每日训记</string>
+
+    <!-- Navigation -->
+    <string name="nav_calendar">训练日历</string>
+    <string name="nav_dashboard">数据看板</string>
+    <string name="cd_navigate_back">返回</string>
+
+    <!-- Calendar Home -->
+    <string name="action_log_weight">记体重</string>
+    <string name="action_back_to_current_month">回到本月</string>
+    <string name="cd_prev_month">上一月</string>
+    <string name="cd_next_month">下一月</string>
+    <string name="legend_strength">力量训练</string>
+    <string name="legend_run">长跑有氧</string>
+    <string name="legend_weight">体重记录</string>
+    <string name="today_badge">今</string>
+    <string name="today_card_title">今日训练</string>
+    <string name="today_card_unlogged_title">今日尚未打卡</string>
+    <string name="today_card_unlogged_subtitle">点击立即录入今日力量与长跑数据</string>
+    <string name="today_card_cta_start">立即打卡</string>
+    <string name="today_card_cta_edit">修改今日记录</string>
+    <string name="monthly_summary_title">本月概览</string>
+
+    <!-- Exercises -->
+    <string name="exercise_upper">上肢</string>
+    <string name="exercise_lower">下肢</string>
+    <string name="exercise_crunch">弯起</string>
+    <string name="exercise_situp">躺起</string>
+    <string name="exercise_run">长跑</string>
+    <string name="exercise_strength_total">力量总计</string>
+    <string name="unit_set">组</string>
+    <string name="unit_rep">个</string>
+    <string name="unit_km">km</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_day">天</string>
+    <string name="conversion_rule_hint">固定换算：1 组 = 10 个</string>
+
+    <!-- Day Detail & Backfill -->
+    <string name="detail_today_title">今日训练记录</string>
+    <string name="detail_past_title">历史训练详情</string>
+    <string name="detail_auto_saved">实时自动保存</string>
+    <string name="detail_readonly_badge">只读模式 · 防误触</string>
+    <string name="detail_editing_badge">编辑模式</string>
+    <string name="action_unlock_edit">编辑/补登</string>
+    <string name="action_save_changes">保存</string>
+    <string name="action_cancel_edit">取消</string>
+    <string name="action_backfill_workout">补登训练记录</string>
+    <string name="action_clear_workout">清零当日训练</string>
+    <string name="empty_past_workout_title">该日期暂无训练记录</string>
+    <string name="empty_past_workout_desc">支持随时补登当日力量组数与长跑里程，保存后自动计入周/月趋势统计</string>
+    <string name="section_strength_title">力量训练</string>
+    <string name="section_cardio_title">有氧训练</string>
+    <string name="section_weight_title">当日体重记录</string>
+    <string name="action_add_weight_today">记一笔体重</string>
+    <string name="action_backfill_weight">补登当日体重</string>
+    <string name="empty_day_weight_hint">当日暂无体重记录，可随时添加多条</string>
+    <string name="cd_decrease_sets">减少组数</string>
+    <string name="cd_increase_sets">增加组数</string>
+    <string name="cd_delete_weight">删除体重记录</string>
+    <string name="run_input_label">长跑距离（公里）</string>
+    <string name="run_input_placeholder">例如 5.25</string>
+    <string name="run_input_helper">支持小数，最多保留 2 位小数</string>
+
+    <!-- Weight Sheet -->
+    <string name="weight_sheet_title_now">记录当前体重</string>
+    <string name="weight_sheet_title_date">补登体重记录</string>
+    <string name="weight_input_label">体重（kg）</string>
+    <string name="weight_input_placeholder">例如 68.5</string>
+    <string name="weight_input_helper">支持 1 位小数（范围 20.0 - 300.0 kg）</string>
+    <string name="weight_note_label">简短备注（选填）</string>
+    <string name="weight_note_placeholder">如：晨起空腹、运动后</string>
+    <string name="weight_time_label">记录时间</string>
+    <string name="action_save_weight">保存体重</string>
+    <string name="error_invalid_weight">请输入有效的体重数值（20.0 ~ 300.0 kg，最多1位小数）</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">数据看板</string>
+    <string name="period_week">按周</string>
+    <string name="period_month">按月</string>
+    <string name="action_back_to_current_period">回当前</string>
+    <string name="cd_prev_period">上一周期</string>
+    <string name="cd_next_period">下一周期</string>
+    <string name="kpi_active_days">有效训练天数</string>
+    <string name="kpi_total_strength">力量总训练量</string>
+    <string name="kpi_total_run">总跑量</string>
+    <string name="kpi_weight_change">体重净变化</string>
+    <string name="chart_category_volume">分类训练量对比</string>
+    <string name="chart_training_trend">训练量趋势</string>
+    <string name="chart_weight_trend">体重波动趋势</string>
+    <string name="chart_weight_skip_hint">未称重日期自动平滑连接</string>
+    <string name="chart_empty_training">该周期暂无训练记录</string>
+    <string name="chart_empty_weight">该周期暂无体重记录</string>
+
+    <!-- Export -->
+    <string name="action_export">导出</string>
+    <string name="export_sheet_title">导出训练与体重数据</string>
+    <string name="export_scope_label">导出范围</string>
+    <string name="export_scope_period">当前所选周期</string>
+    <string name="export_scope_all">全部历史记录</string>
+    <string name="export_format_label">导出格式</string>
+    <string name="export_format_csv">表格文件 (.csv)</string>
+    <string name="export_format_csv_desc">含 UTF-8 BOM 编码，Excel 打开中文无乱码</string>
+    <string name="export_format_txt">训练战报 (.txt)</string>
+    <string name="export_format_txt_desc">排版清晰的汇总与逐日明细，便于阅读转发</string>
+    <string name="action_save_to_downloads">保存到下载目录</string>
+    <string name="action_share_file">系统分享</string>
+    <string name="export_success_saved">已保存到下载目录：%1$s</string>
+    <string name="export_error_generic">导出失败：%1$s</string>
+    <string name="export_empty_data">所选范围内暂无可导出的记录</string>
+    <string name="share_chooser_title">分享健身记录文件</string>
+</resources>

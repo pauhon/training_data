@@ -1,0 +1,6 @@
+{
+  "name": "每日训记",
+  "description": "面向个人日常使用的纯本地安卓健身与体重记录应用，以训练日历为核心，支持日常快速打卡、历史补登、周/月多维趋势分析及本地 CSV/TXT 战报导出。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
